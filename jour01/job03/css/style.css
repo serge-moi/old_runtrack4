@@ -1,0 +1,44 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 29%;
+    align-items: flex-end;
+    width: 96%;
+    margin: auto;
+}
+
+.section{
+    background-color: #88c1d0;
+    flex-basis: 22%;
+    height: 85%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1599px){
+    main{
+        flex-wrap: wrap;
+        height: 70%;
+    }
+    .section{
+        flex-basis: 41%;
+        height: 41%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    main{
+        flex-direction: column;
+        align-items: normal;
+        height: 98%;
+        width: 65%;
+    }
+    .section{
+        flex-basis: 20%;
+    }
+}
