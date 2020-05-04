@@ -1,0 +1,69 @@
+/* ////////// POLICES ////////// */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+/* ////////// STRUCTURE ////////// */
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main-headbox{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    background-color: #ffce00;
+    font-family: 'Oswald', sans-serif;
+}
+
+#nav-ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#nav-headbox{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.lien-headbox{
+    text-decoration: none;
+    padding: 25px;
+    background-color: #ffce00;
+    border: 6px double black;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width:767px){
+    #nav-headbox{
+        display: none;
+        z-index: 20;
+    }
+    #nav-headbox:target{
+        display: block;
+    }
+    #but-burg{
+        position: absolute;
+        background-image: url(../img/burger.png);
+        height: 56px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position: center;
+        width: 58px;
+    }
+}
