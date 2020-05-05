@@ -71,12 +71,14 @@
                 </form>
             </section>
         </main>
-        <footer>
-            <ul>
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="index.php">Inscription</a></li>
-                <li><a href="index.php">Connexion</a></li>
-                <li><a href="index.php">Rechercher</a></li>
+        <footer class="brown darken-4">
+            <ul class="row">
+                <div class="col 6 offset-6 s3 center-align">
+                    <li><a href="index.php" class="grey-text text-lighten-5">Accueil</a></li>
+                    <li><a href="index.php" class="grey-text text-lighten-5">Inscription</a></li>
+                    <li><a href="index.php" class="grey-text text-lighten-5">Connexion</a></li>
+                    <li><a href="index.php" class="grey-text text-lighten-5">Rechercher</a></li>
+                </div>
             </ul>
         </footer>
     </body>
