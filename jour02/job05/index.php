@@ -13,11 +13,11 @@
                 <div class="container nav-wrapper">
                     <a href="#" class="brand-logo  black-text"><i class="small material-icons">albumalbum</i>Co-nudes</a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="sass.html" class="black-text">Sass</a></li>
-                        <li><a href="badges.html" class="black-text">Components</a></li>
-                        <li><a href="collapsible.html" class="black-text">JavaScript</a></li>
-                        <li><a href="collapsible.html" class="black-text">JavaScript</a></li>
-                        <li><a href="collapsible.html"  class="black-text">JavaScript</a></li>
+                        <li><a href="sass.html" class="black-text">Accueil</a></li>
+                        <li><a href="badges.html" class="black-text">News</a></li>
+                        <li><a href="collapsible.html" class="black-text">Nous contacter</a></li>
+                        <li><a href="collapsible.html" class="black-text">Inscription</a></li>
+                        <li><a href="collapsible.html"  class="black-text">Connexion</a></li>
                     </ul>
                 </div>
             </nav>
